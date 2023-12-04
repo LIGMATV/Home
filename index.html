@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIGMATV</title>
+  <link rel="icon" type="image/png" href="logo/favicon.png">
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-image: url('bg.png'); /* Ganti dengan URL gambar latar belakang Anda */
+            background-size: cover;
+            height: 100vh; /* Menetapkan tinggi untuk memastikan gambar latar belakang ditampilkan sepenuhnya */
+            margin: 0; /* Menghapus margin default */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .link-item {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .link-item img {
+            width: 30px; /* Sesuaikan lebar gambar sesuai kebutuhan Anda */
+            height: 30px; /* Sesuaikan tinggi gambar sesuai kebutuhan Anda */
+            margin-right: 10px; /* Menambahkan ruang di antara gambar dan teks */
+        }
+
+        .link-item a {
+            text-decoration: none;
+            color: #fff; /* Warna teks diubah menjadi putih agar terlihat lebih baik di atas latar belakang */
+            padding: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.5); /* Border semi-transparan */
+            border-radius: 24px;
+            display: block;
+            backdrop-filter: blur(50px);
+        }
+
+        .link-item img[src$=".svg"] {
+    filter: brightness(0) invert(1);
+        }
+
+        .link-item:hover img {
+            transform: scale(2.5); /* Ukuran ikon saat dihover */
+        }
+
+        h1  {
+    font-size: 300%; /* Ukuran teks 150% dari ukuran default */
+    color: #00ddff;
+  }
+
+        @font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    src: url('font/samsungsharpsans-bold.woff') format('truetype');
+  }
+
+  body {
+    font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  }
+
+  /* Finally, the content and links! */
+
+  </style>
+</head>
+<body>
+  <h1>Welcome to LIGMATV Website!</h1>
+  <div class="link-container">
+    <div class="link-item">
+      <img src="logo/yt.svg" alt="Y"> <a href="https://www.youtube.com/@L1GM4TV">YouTube</a>
+    </div>
+    <div class="link-item">
+      <img src="logo/gith.svg" alt="Y"> <a href="https://github.com/LIGMATV">GitHub</a>
+    </div>
+    <div class="link-item">
+      <img src="logo/ico.svg" alt="Y"> <a href="https://share.iconpackstudio.com/users/Fkfb">Icon Pack Studio</a>
+    </div>
+    <div class="link-item">
+      <img src="logo/st.svg" alt="Y"> <a href="https://sticker.ly/user/officialligmatv">Sticker.ly</a>
+    </div>
+    <div class="link-item">
+      <img src="logo/clip.svg" alt="Y"> <a href="https://s.id/twib-ligmatv">Twibbon</a>
+    </div>
+    <div class="link-item">
+      <img src="logo/blg.svg" alt="Y"> <a href="https:/l1gm4tv.blogspot.com">Blogger</a>
+    </div>
+    <div class="link-item">
+      <img src="logo/em.svg" alt="Y"> <a href="mailto:ligmatv.id@gmail.com">Bu51nn3ss = Email</a>
+    </div>
+
+    <div class="link-item">
+      <b>Public to Download</b>
+    </div>
+
+    <div class="link-item">
+      <img src="logo/pptx.svg" alt="Y"> <a href="https://tny.im/FilePPTX">File PPTX</a>
+    </div>
+  </div>
+  <div class="link-item">
+    <img src="logo/vid.svg" alt="Y"> <a href="https://tny.im/VideoLama">Video Lama</a>
+  </div>
+
+  <div class="link-item">
+    <b>Some tools by me!</b>
+  </div>
+
+  <div class="link-item">
+    <img src="logo/emojibin.gif" alt="Y"> <a href="https://emojibin.vercel.app">EmojiBin</a>
+  </div>
+  <div class="link-item">
+    <img src="logo/rec.svg" alt="Y"> <a href="https://scrrec.vercel.app">ScrRec</a>
+  </div>
+  <div class="link-item">
+    <img src="logo/music.svg" alt="Y"> <a href="https://simplemusicvisualizer.vercel.app">Music Visualizer</a>
+  </div>
+  
+<a>Made with love by me and ChatGPT!</a>
+
+
+
+  <script>
+        var linkItems = document.getElementsByClassName("link-item");
+
+        document.onmousemove = function(event) {
+            var x = event.clientX * 80 / window.innerWidth + "%";
+            var y = event.clientY * 80 / window.innerHeight + "%";
+
+            for (var i = 0; i < linkItems.length; i++) {
+                linkItems[i].style.left = x;
+                linkItems[i].style.top = y;
+                linkItems[i].style.transform = "translate(-" + x + ", -" + y + ")";
+            }
+        };
+  </script>
+</body>
+</html>
