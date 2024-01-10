@@ -159,6 +159,11 @@
   <script>
         var linkItems = document.getElementsByClassName("link-item");
 
+            // Mengecek apakah lebar layar lebih besar dari 768 piksel (contoh nilai, sesuaikan dengan kebutuhan Anda)
+    function isDesktop() {
+        return window.innerWidth > 768;
+    }
+
         document.onmousemove = function(event) {
             var x = event.clientX * 80 / window.innerWidth + "%";
             var y = event.clientY * 80 / window.innerHeight + "%";
