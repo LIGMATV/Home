@@ -160,11 +160,10 @@
         var linkItems = document.getElementsByClassName("link-item");
 
             // Mengecek apakah lebar layar lebih besar dari 768 piksel (contoh nilai, sesuaikan dengan kebutuhan Anda)
-    function isDesktop() {
-        return window.innerWidth > 768;
-    }
 
-        document.onmousemove = function(event) {
+            document.onmousemove = function(event) {
+        // Memeriksa apakah event mousemove terdeteksi (kursor ada)
+        if (event) {
             var x = event.clientX * 80 / window.innerWidth + "%";
             var y = event.clientY * 80 / window.innerHeight + "%";
 
@@ -173,6 +172,7 @@
                 linkItems[i].style.top = y;
                 linkItems[i].style.transform = "translate(-" + x + ", -" + y + ")";
             }
+          }
         };
   </script>
 
