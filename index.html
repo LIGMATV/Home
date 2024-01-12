@@ -114,6 +114,7 @@
 * ___]  |    |   |___ |___ .|___ ___] ___]
 */
 
+
 @font-face {
     font-family: 'Samsung Sharp Sans Bold';
     src: url('font/samsungsharpsans-bold.woff') format('truetype');
@@ -169,8 +170,7 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
             transform: scale(2.5);
         }
 
-        span  {
-    font-size: 300%;
+span  {
     background: linear-gradient(to right, #7576AC 0%, #07BBBC 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -215,7 +215,6 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
         cursor: text;
         -webkit-text-stroke: 0.1px #17CFD8;
         padding-left: 20px;
-        font-size: 5em;
         text-shadow: 1px 1px 1px #07BBBC,
         1px 2px 1px #07BBBC,
         1px 3px 1px #07BBBC,
@@ -228,6 +227,22 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     1px 25px 35px rgba(16,16,16,0.2),
     1px 30px 60px rgba(16,16,16,0.4);
     }
+
+    @media screen and (min-width: 601px) {
+          span {
+          font-size: 300%; }}
+
+@media screen and (max-width: 600px) {
+        span  {
+    font-size: 100%; }}
+
+    @media screen and (min-width: 601px) {
+          .kanji-pa {
+            font-size: 5em; }}
+
+@media screen and (max-width: 600px) {
+        .kanji-pa  {
+          font-size: 2em; }}
 
   </style>
 </head>
