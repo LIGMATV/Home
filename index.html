@@ -21,8 +21,10 @@
   <style> .github-fork-ribbon:before {     background: linear-gradient(to right, #7576AC 0%, #07BBBC 100%); } </style>
   <a class="github-fork-ribbon" href="https://github.com/LIGMATV/Home" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 
-  <div class="gelatine">
-    <span>Welcome to</span><a class="kanji-pa">LIGMATV</a><span>Website!</span>
+  <div class="bounce2">
+    <span>Welcome to</span><a class="kanji-pa">LIGMATV</a><span>Website!
+      <img style="width: 30px; height: 30px;"src="logo/check.svg" alt="Y">
+    </span>
   </div><br>
 
   <br><a href="https://www.palgov.ps/en"><img src="https://ligmatv.vercel.app/badge/Save%20Palestine.svg" alt="Stand with Palestine"></a><br><br>
@@ -115,6 +117,9 @@
 */
 
 
+
+
+
 @font-face {
     font-family: 'Samsung Sharp Sans Bold';
     src: url('font/samsungsharpsans-bold.woff') format('truetype');
@@ -190,22 +195,24 @@ span  {
     text-decoration: underline overline dotted rgba(0, 0, 0, 0.118);
   }
 
-  .gelatine {
-        -webkit-animation: gelatine 0.5s infinite;
-                animation: gelatine 0.5s infinite;
+ 
+  .bounce2 {
+        -webkit-animation: bounce2 2s ease infinite;
+                animation: bounce2 2s ease infinite;
       }
-      @-webkit-keyframes gelatine {
-        from, to { transform: scale(1, 1); }
-        25% { transform: scale(0.9, 1.1); }
-        50% { transform: scale(1.1, 0.9); }
-        75% { transform: scale(0.95, 1.05); }
+      @-webkit-keyframes bounce2 {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        40% {transform: translateY(-30px);}
+        60% {transform: translateY(-15px);}
       }
-      @keyframes gelatine {
-        from, to { transform: scale(1, 1); }
-        25% { transform: scale(0.9, 1.1); }
-        50% { transform: scale(1.1, 0.9); }
-        75% { transform: scale(0.95, 1.05); }
-      } 
+      @keyframes bounce2 {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        40% {transform: translateY(-30px);}
+        60% {transform: translateY(-15px);}
+      }
+       
+      
+      
       
   .kanji-pa {
         font-family: 'kanji-pa', sans-serif;
