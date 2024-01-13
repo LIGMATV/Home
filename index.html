@@ -22,18 +22,18 @@
   <a class="github-fork-ribbon" href="https://github.com/LIGMATV/Home" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 
   <div class="bounce2">
-    <span>Welcome to</span><a class="kanji-pa">LIGMATV</a><span>Website!
-      <img style="width: 30px; height: 30px;"src="logo/check.svg" alt="Y">
-    </span>
+    <span>Welcome to</span><a class="kanji-pa">LIGMATV</a><span>Website!</span>
   </div><br>
 
   <br><a href="https://www.palgov.ps/en"><img src="https://ligmatv.vercel.app/badge/Save%20Palestine.svg" alt="Stand with Palestine"></a><br><br>
   <div class="link-container">
     <div class="link-item">
       <img src="logo/yt.svg" alt="Y"> <a href="https://www.youtube.com/@kdensport">YouTube</a>
+      <img style="width:20px; filter: none; padding-left: 10px; transform: none;" src="logo/cch.svg">
     </div>
     <div class="link-item">
       <img src="logo/gith.svg" alt="Y"> <a href="https://github.com/LIGMATV">GitHub</a>
+      <img style="width:20px; filter: none; padding-left: 10px; transform: none;" src="logo/cch2.svg">
     </div>
     <div class="link-item">
       <img src="logo/ico.svg" alt="Y"> <a href="https://share.iconpackstudio.com/users/Fkfb">Icon Pack Studio</a>
@@ -102,7 +102,9 @@
 <a>Gradient Background by <a href="https://www.grabient.com/" target="_blank">Grabient</a><br/>
 <a>3D Text Effect by <a href="https://codepen.io/ryandsouza13/pen/yEBJQV" target="_blank">RYAN</a><br/>
 <a>Fork me on Github by <a href="https://simonwhitaker.github.io/github-fork-ribbon-css/" target="_blank">Simon Whitaker</a><br/>
-<a>Gelatine Text Effect from <a href="https://simplecssanimation.vercel.app/" target="_blank">here</a>
+<a>Bounce2 Text Effect from <a href="https://simplecssanimation.vercel.app/" target="_blank">here</a><br/>
+<a>SVG Icons by <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a><br/><br>
+<a>Btw the fake verified icons make it more cool :O</a>
 </div>
 </body>
 
@@ -250,6 +252,29 @@ span  {
 @media screen and (max-width: 600px) {
         .kanji-pa  {
           font-size: 2em; }}
+
+          .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
 
   </style>
 </head>
