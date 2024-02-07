@@ -289,3 +289,27 @@
           transition: rotate 200ms ease-out;
         }
     </style>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCWb7dvzubMQGBymlJJ2_9tPrkFcprF1no",
+    authDomain: "ligmatv-e463c.firebaseapp.com",
+    projectId: "ligmatv-e463c",
+    storageBucket: "ligmatv-e463c.appspot.com",
+    messagingSenderId: "611370816861",
+    appId: "1:611370816861:web:1e9da2a6e9387509d604b4",
+    measurementId: "G-NPCNH1R6G7"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
