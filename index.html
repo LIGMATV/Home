@@ -302,5 +302,11 @@ details[open] span::before {
         <!-- Reference the main and helper scripts. -->
         <script src="/components/scripts/pwa-handler.js"></script>
         <script src="/components/scripts/pwabuilder-sw.js"></script>
+        <script>
+          if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('/components/scripts/pwabuilder-sw.js')
+          }
+        </script>
+        
     </body>
 </html>
