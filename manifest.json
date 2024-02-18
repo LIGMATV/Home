@@ -1,0 +1,14 @@
+{
+    "name": "Clock",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#0d085c",
+    "icons": [
+        {
+            "src": "/logo/favicon.svg",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}
