@@ -5,8 +5,8 @@
     "theme_color": "#f6f6f6",
     "icons": [
         {
-            "src": "/logo/favicon.svg",
-            "type": "image/svg+xml",
+            "src": "/components/img/icon.png",
+            "type": "image/png",
             "sizes": "512x512",
             "purpose": "any maskable"
         }
