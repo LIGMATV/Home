@@ -8,7 +8,7 @@
         <link rel="apple-touch-icon" href="logo/favicon.svg" />
         <title>LIGMATV</title>
 
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="pwa/manifest.json" />
         <meta name="theme-color" content="#f6f6f6" />
     </head>
     <body>   
@@ -307,11 +307,11 @@ details[open] span::before {
 
     </style>
     
-        <script src="/components/scripts/pwa-handler.js"></script>
-        <script src="/components/scripts/pwabuilder-sw.js"></script>
+        <script src="pwa/scripts/pwa-handler.js"></script>
+        <script src="pwa/scripts/pwabuilder-sw.js"></script>
         <script>
           if (typeof navigator.serviceWorker !== 'undefined') {
-            navigator.serviceWorker.register('/components/scripts/pwabuilder-sw.js')
+            navigator.serviceWorker.register('pwa/scripts/pwabuilder-sw.js')
           }
         </script>
         
