@@ -308,12 +308,13 @@ details[open] span::before {
     </style>
     
         <script src="pwa/pwa-handler.js"></script>
-        <script src="pwa/pwabuilder-sw.js"></script>
         <script>
-          if (typeof navigator.serviceWorker !== 'undefined') {
-            navigator.serviceWorker.register('pwa/pwabuilder-sw.js')
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register(
+              'pwa/pwabuilder-sw.js'
+            );
           }
-        </script>        
+        </script>    
         
     </body>
 </html>
