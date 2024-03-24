@@ -13,7 +13,7 @@ An true cool website.
 
 # Themes
 
-[Classic Version](https://ligmatv.vercel.app/win/98) ● Windows 98  
-[Luna Version](https://ligmatv.vercel.app/win/xp.html) ● Windows XP  
-[Aero Version](https://ligmatv.vercel.app/win/7.html) ● Windows 7  
+[Classic Version](https://ligmatv1.vercel.app/win/98) ● Windows 98  
+[Luna Version](https://ligmatv1.vercel.app/win/xp.html) ● Windows XP  
+[Aero Version](https://ligmatv1.vercel.app/win/7.html) ● Windows 7  
 
