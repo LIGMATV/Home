@@ -2,7 +2,7 @@
 
 # LIGMATV Website
 
-![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=ligmatv&style=flat-square)
+![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=ligmatv1&style=flat-square)
 
 [Vercel](https://ligmatv.vercel.app/)  
 [GitHub Pages](https://ligmatv.github.io/Home/)  
