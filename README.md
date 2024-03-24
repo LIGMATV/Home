@@ -4,7 +4,7 @@
 
 ![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=ligmatv1&style=flat-square)
 
-[Vercel](https://ligmatv.vercel.app/)  
+[Vercel](https://ligmatv1.vercel.app/)  
 [GitHub Pages](https://ligmatv.github.io/Home/)  
 [Cloudflare Pages](https://ligmatv.pages.dev/)  
 [Glitch](https://ligmatv.glitch.me/)  
