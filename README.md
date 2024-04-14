@@ -1,6 +1,6 @@
 ![banner](https://socialify.git.ci/LIGMATV/Home/image?description=1&language=1&logo=https%3A%2F%2Favatars.githubusercontent.com%2FLIGMATV&name=1&owner=1&pattern=Circuit%20Board&theme=Light)
 
-# LIGMATV Website *(Secondary, deprecated)*
+# LIGMATV Website <sup>*(Secondary, deprecated)*</sup> >> Succeeded by [Docs-Jekyll](https://github.com/LIGMATV/Docs-Jekyll)
 
 ![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=ligmatv1&style=flat-square)
 
